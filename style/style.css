@@ -1,20 +1,26 @@
-#outerbox{
-    width:500px;height:100px;border:1px solid #000;
+.search-bar{
+    margin: 20px;
+    text-align: center;
 }
 
-#outerbox #inner1{
-   position: relative;
-    margin:inherit;
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
-    width:300px;height:75px;border:1px solid #000;
+.search-bar input{
+    width: 75%;
 }
 
-#outerbox #inner1 #inner2{
-    position: relative;
-    margin: auto;
-    margin-top: 25%;
-   width:150px;height:50px;border:1px solid #000; 
+.video-item img {
+    max-width: 64px;
 }
+
+.video-detail .details{
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.list-group-item{
+    cursor: pointer;
+}
+
+.list-group-item:hover{
+    background-color: #eee;
