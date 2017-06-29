@@ -12,7 +12,7 @@ import VideoDetail from './components/video_detail';
 const API_KEY = 'AIzaSyDOZjEzZvpu7cwUFDelmkBy4__qIRgid38';// we need install npm package to work with this key npm install --save youtube-api-search
 
 //class component to work with state. we have changed import React from 'react'; to import React,{ Component } from 'react';
-class App extends Component {
+export default class App extends Component {
 
     constructor(props){
         super(props);

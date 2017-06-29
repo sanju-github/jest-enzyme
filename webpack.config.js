@@ -1,14 +1,18 @@
+
+
 module.exports = {
-  entry: [
-    './src/index.js'
-  ],
+  entry: "./src/index.js",
   output: {
     path: __dirname,
     publicPath: '/',
     filename: 'bundle.js'
   },
+  devServer: {
+    contentBase: './'
+  },
   module: {
     loaders: [{
+      test: /\.jsx?$/,
       exclude: /node_modules/,
       loader: 'babel',
       query: {
@@ -19,8 +23,5 @@ module.exports = {
   resolve: {
     extensions: ['', '.js', '.jsx']
   },
-  devServer: {
-    historyApiFallback: true,
-    contentBase: './'
-  }
+
 };

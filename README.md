@@ -10,3 +10,5 @@ https://hackernoon.com/react-unit-test-example-tutorial-jest-enzyme-jsdom-mocha-
 https://github.com/Cmdv/Essential-TDD-BDD-React-list
 https://github.com/securingsincity/react-jest-example
 http://www.hackingwithreact.com/read/1/32/how-to-configure-jest-to-test-react-and-es6 -- follow this
+
+http://airbnb.io/enzyme/docs/api/index.html
