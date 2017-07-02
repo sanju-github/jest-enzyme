@@ -12,3 +12,5 @@ https://github.com/securingsincity/react-jest-example
 http://www.hackingwithreact.com/read/1/32/how-to-configure-jest-to-test-react-and-es6 -- follow this
 
 http://airbnb.io/enzyme/docs/api/index.html
+https://www.theodo.fr/blog/2017/04/enzyme-fast-and-simple-react-testing/
+https://semaphoreci.com/community/tutorials/testing-react-components-with-enzyme-and-mocha
