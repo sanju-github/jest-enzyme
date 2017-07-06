@@ -1,6 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Component: App should match its empty index snapshot 1`] = `
+exports[`Component: App should match its empty SearchBar snapshot 1`] = `
+<div
+  className="search-bar"
+>
+  <input
+    onChange={[Function]}
+    value=""
+  />
+</div>
+`;
+
+exports[`Component: App verifying shallow way of snapshot 1`] = `
 <div
   className="search-bar"
 >

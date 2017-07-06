@@ -8,7 +8,7 @@ import {shallow} from 'enzyme';
 describe('Component: App', () => {
 
 
-  it('should match its empty index snapshot', () => {
+  it('should match its empty video list snapshot', () => {
     const tree = renderer.create(<VideoList />).toJSON();
 
     expect(tree).toMatchSnapshot();

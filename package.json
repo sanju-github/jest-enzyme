@@ -6,7 +6,8 @@
   "repository": "https://github.com/sanju-github/jest-enzyme.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "test": "jest"
+    "test": "jest",
+    "build": "webpack"
   },
   "jest": {
     "collectCoverage": true

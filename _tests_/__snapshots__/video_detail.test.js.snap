@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Component: App should match its empty index snapshot 1`] = `
+exports[`Component: App should match its empty video_detail snapshot 1`] = `
 <div>
   Loading...
 </div>
